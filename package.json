@@ -1,0 +1,16 @@
+{
+  "name": "gramacheckpdfgen",
+  "version": "1.0.0",
+  "description": "microservice to generate PDF certificates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "author": "Charindu Thisara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdfkit": "^0.14.0"
+  }
+}
